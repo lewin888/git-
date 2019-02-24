@@ -1,0 +1,53 @@
+2018-03-18 12:18:59  [ main:0 ] - [ DEBUG ]  ==>  Preparing: select * from tb_department 
+2018-03-18 12:18:59  [ main:69 ] - [ DEBUG ]  ==> Parameters: 
+2018-03-18 12:18:59  [ main:104 ] - [ DEBUG ]  <==      Total: 10
+2018-03-18 12:25:30  [ main:0 ] - [ DEBUG ]  ==>  Preparing: select * from tb_department 
+2018-03-18 12:25:30  [ main:54 ] - [ DEBUG ]  ==> Parameters: 
+2018-03-18 12:25:30  [ main:99 ] - [ DEBUG ]  <==      Total: 10
+2018-03-18 12:36:56  [ main:0 ] - [ DEBUG ]  ==>  Preparing: select * from tb_department where id=? 
+2018-03-18 12:36:56  [ main:58 ] - [ DEBUG ]  ==> Parameters: 2(Integer)
+2018-03-18 12:36:56  [ main:100 ] - [ DEBUG ]  <==      Total: 1
+2018-03-18 12:46:47  [ main:0 ] - [ DEBUG ]  ==>  Preparing: select * from tb_department where dt_name like '%C%' or dt_bz like '%网页%' 
+2018-03-18 12:46:47  [ main:60 ] - [ DEBUG ]  ==> Parameters: 
+2018-03-18 12:46:47  [ main:97 ] - [ DEBUG ]  <==      Total: 7
+2018-03-18 13:00:44  [ main:0 ] - [ DEBUG ]  ==>  Preparing: select * from tb_department where dt_name like '%P%' or dt_bz like '%JSP%' 
+2018-03-18 13:00:44  [ main:63 ] - [ DEBUG ]  ==> Parameters: 
+2018-03-18 13:00:44  [ main:96 ] - [ DEBUG ]  <==      Total: 4
+2018-03-18 13:09:49  [ main:0 ] - [ DEBUG ]  ==>  Preparing: insert into tb_department values (?,?,?,?) 
+2018-03-18 13:09:49  [ main:60 ] - [ DEBUG ]  ==> Parameters: 0(Integer), 技术部(String), 2018-3-18(String), 无(String)
+2018-03-18 13:09:49  [ main:64 ] - [ DEBUG ]  <==    Updates: 1
+2018-03-18 13:10:24  [ main:0 ] - [ DEBUG ]  ==>  Preparing: insert into tb_department values (?,?,?,?) 
+2018-03-18 13:10:24  [ main:75 ] - [ DEBUG ]  ==> Parameters: 0(Integer), 技术部(String), 2018-3-18(String), 无(String)
+2018-03-18 13:10:24  [ main:77 ] - [ DEBUG ]  <==    Updates: 1
+2018-03-18 13:14:45  [ main:0 ] - [ DEBUG ]  ==>  Preparing: insert into tb_department values (?,?,?,?) 
+2018-03-18 13:14:45  [ main:65 ] - [ DEBUG ]  ==> Parameters: 0(Integer), 采购部(String), 2018-3-18(String), 无(String)
+2018-03-18 13:14:45  [ main:67 ] - [ DEBUG ]  <==    Updates: 1
+2018-03-18 13:25:52  [ main:0 ] - [ DEBUG ]  ==>  Preparing: update tb_department set dt_name=? where id=? 
+2018-03-18 13:25:52  [ main:68 ] - [ DEBUG ]  ==> Parameters: VV(String), 0(Integer)
+2018-03-18 13:25:52  [ main:70 ] - [ DEBUG ]  <==    Updates: 0
+2018-03-18 13:27:32  [ main:0 ] - [ DEBUG ]  ==>  Preparing: update tb_department set dt_name=?,dt_createtime=?,dt_bz=? where id=? 
+2018-03-18 13:27:48  [ main:0 ] - [ DEBUG ]  ==>  Preparing: update tb_department set dt_name=? where id=? 
+2018-03-18 13:27:48  [ main:72 ] - [ DEBUG ]  ==> Parameters: VV(String), 0(Integer)
+2018-03-18 13:27:48  [ main:74 ] - [ DEBUG ]  <==    Updates: 0
+2018-03-18 13:28:19  [ main:0 ] - [ DEBUG ]  ==>  Preparing: update tb_department set dt_name=? where id=? 
+2018-03-18 13:29:06  [ main:0 ] - [ DEBUG ]  ==>  Preparing: update tb_department set dt_name=? where id=5 
+2018-03-18 13:29:07  [ main:69 ] - [ DEBUG ]  ==> Parameters: VV(String)
+2018-03-18 13:29:07  [ main:71 ] - [ DEBUG ]  <==    Updates: 1
+2018-03-18 13:30:29  [ main:0 ] - [ DEBUG ]  ==>  Preparing: update tb_department set dt_name=? where id=? 
+2018-03-18 13:30:29  [ main:69 ] - [ DEBUG ]  ==> Parameters: VV(String), 0(Integer)
+2018-03-18 13:30:29  [ main:71 ] - [ DEBUG ]  <==    Updates: 0
+2018-03-18 13:30:54  [ main:0 ] - [ DEBUG ]  ==>  Preparing: update tb_department set dt_name=? where id=? 
+2018-03-18 13:30:54  [ main:76 ] - [ DEBUG ]  ==> Parameters: VV(String), 5(Integer)
+2018-03-18 13:30:54  [ main:82 ] - [ DEBUG ]  <==    Updates: 1
+2018-03-18 13:34:16  [ main:0 ] - [ DEBUG ]  ==>  Preparing: delete from tb_department where id=? 
+2018-03-18 13:34:16  [ main:67 ] - [ DEBUG ]  ==> Parameters: 5(Integer)
+2018-03-18 13:34:16  [ main:69 ] - [ DEBUG ]  <==    Updates: 1
+2018-03-18 23:44:36  [ main:0 ] - [ DEBUG ]  ==>  Preparing: select * from tb_department 
+2018-03-18 23:44:36  [ main:75 ] - [ DEBUG ]  ==> Parameters: 
+2018-03-18 23:44:36  [ main:121 ] - [ DEBUG ]  <==      Total: 11
+2018-03-18 23:44:44  [ main:1 ] - [ DEBUG ]  ==>  Preparing: select * from tb_department 
+2018-03-18 23:44:44  [ main:72 ] - [ DEBUG ]  ==> Parameters: 
+2018-03-18 23:44:44  [ main:130 ] - [ DEBUG ]  <==      Total: 11
+2018-03-18 23:44:58  [ main:0 ] - [ DEBUG ]  ==>  Preparing: select * from tb_department 
+2018-03-18 23:44:58  [ main:70 ] - [ DEBUG ]  ==> Parameters: 
+2018-03-18 23:44:58  [ main:128 ] - [ DEBUG ]  <==      Total: 11
